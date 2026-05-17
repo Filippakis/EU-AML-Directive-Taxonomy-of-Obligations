@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DIRECTIVE (EU) 2015/849 — 4th Anti-Money Laundering Directive (AMLD4)
+  Machine-readable taxonomy of obligations applicable to OBLIGED ENTITIES.
+  
+  Scope: Covers only provisions that impose direct duties on obliged entities
+         (credit institutions, financial institutions, and the professional
+         categories listed in Article 2(1)(3)).
+  Purpose: RAG / AI-assisted compliance reference.
+  Simplified: Legislative recitals and Member State transposition instructions
+              are removed; only the core obligation content is retained.
+-->
+
+<AMLD4_ObligedEntity_Obligations
+  directive="Directive (EU) 2015/849"
+  date="2015-05-20"
+  source="OJ L 141, 5.6.2015, p. 73"
+  transposition_deadline="2017-06-26">
+
+  <!-- ═══════════════════════════════════════════════════════
+       CHAPTER I — RISK ASSESSMENT (Articles 6–8)
+       ═══════════════════════════════════════════════════════ -->
+
+  <Chapter id="I-RiskAssessment" title="Risk Assessment">
+
+    <Article id="8" title="Obliged Entity-Level Risk Assessment"
+             obligation_type="Risk Management">
+      (1) Obliged entities must identify and assess their money laundering
+          and terrorist financing (ML/TF) risks, taking into account risk
+          factors relating (among others) to: customers, countries or geographic areas,
+          products, services, transactions, and delivery channels. The
+          assessment must be proportionate to the nature and size of the
+          entity.
+      (2) Risk assessments must be documented, kept up to date, and made
+          available to competent authorities or self-regulatory bodies on
+          request.
+      (3) Obliged entities must have in place policies, controls, and
+          procedures to mitigate and manage effectively the ML/TF risks
+          identified. These must be proportionate to the nature and size of
+          the entity and must include:
+          (a) internal policies covering: risk management, customer due
+              diligence (CDD), reporting, record-keeping, internal control,
+              compliance management (including, where appropriate, appointment
+              of a compliance officer at management level), and employee
+              screening;
+          (b) where appropriate to the size and nature of the business, an
+              independent audit function to test internal policies, controls,
+              and procedures.
+      (5) Senior management approval must be obtained for the policies,
+          controls, and procedures put in place, and measures must be
+          monitored and enhanced where appropriate.
+    </Article>
+
+  </Chapter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       CHAPTER II — CUSTOMER DUE DILIGENCE (Articles 10–29)
+       ═══════════════════════════════════════════════════════ -->
+
+  <Chapter id="II" title="Customer Due Diligence">
+
+    <Article id="10" title="Prohibition of Anonymous Accounts"
+             obligation_type="CDD — Prohibition">
+      Credit institutions and financial institutions must not keep anonymous
+      accounts or anonymous passbooks. Existing anonymous accounts must be
+      subjected to CDD measures as soon as possible and before they are used
+      in any way. Obliged entities must also take measures to prevent misuse
+      of bearer shares and bearer share warrants.
+    </Article>
+
+    <Article id="11" title="Circumstances Requiring CDD"
+             obligation_type="CDD — Trigger Events">
+      Obliged entities must apply CDD measures in all of the following
+      circumstances:
+      (a) when establishing a business relationship;
+      (b) when carrying out an occasional transaction of EUR 15,000 or more
+          (single or linked operations), or a fund transfer exceeding EUR 1,000;
+      (c) specifically for traders in goods: occasional cash transactions of EUR 10,000 or
+          more (single or linked operations);
+      (d) specifically for gambling service providers: transactions of EUR 2,000 or more
+          (collection of winnings, wagering of a stake, or both);
+      (e) whenever there is a suspicion of ML or TF, regardless of any
+          threshold or exemption;
+      (f) when there are doubts about the accuracy or adequacy of previously
+          obtained customer identification data.
+    </Article>
+
+    <Article id="13" title="Standard CDD Measures — Content"
+             obligation_type="CDD — Standard">
+      Obliged entities must apply all of the following CDD measures (Standard Customer Due Diligence Measures):
+      (a) CUSTOMER IDENTIFICATION: identify the customer and verify their
+          identity using documents, data, or information from a reliable and
+          independent source;
+      (b) BENEFICIAL OWNER (UBO) IDENTIFICATION: identify the beneficial owner and
+          take reasonable measures to verify their identity; for legal persons,
+          trusts, and similar structures, understand the ownership and control
+          structure;
+      (c) PURPOSE OF RELATIONSHIP: assess and, where appropriate, obtain
+          information on the purpose and intended nature of the business
+          relationship;
+      (d) ONGOING MONITORING: continuously monitor the business relationship,
+          scrutinise transactions to ensure consistency with the customer's
+          known business and risk profile (including source of funds where
+          necessary), and keep all documents and data up to date.
+      When identifying and verifying the customer and beneficial owner,
+      obliged entities must also verify that any person purporting to act on
+      behalf of the customer is duly authorised, and identify and verify that
+      person's identity.
+      CDD measures may be applied on a risk-sensitive basis to determine
+      their extent, but all four elements above must be applied.
+      Obliged entities must be able to demonstrate to competent authorities
+      that the measures taken are appropriate given the identified ML/TF risks.
+      For life insurance and investment-related insurance: in addition to
+      standard CDD on the customer and beneficial owner, obliged entities must
+      also identify the beneficiaries of the policy (by name, or by sufficient
+      information to identify them at payout). Verification of beneficiary
+      identity must occur at the time of payout. Where the policy is assigned
+      to a third party, the beneficial owner of the assignee must be identified
+      at the time of assignment.
+      For trusts and similar arrangements with class beneficiaries: sufficient
+      information must be obtained to identify beneficiaries at the time of
+      payout or exercise of vested rights.
+    </Article>
+
+    <Article id="14" title="Timing of CDD — When Verification Must Occur"
+             obligation_type="CDD — Timing">
+      (1) Verification of customer and beneficial owner identity must normally
+          be completed BEFORE establishing a business relationship or carrying
+          out a transaction.
+      (2) Exceptionally, verification may be completed DURING the establishment
+          of a business relationship if interruption would disrupt normal
+          business and ML/TF risk is low; it must then be completed as soon as
+          practicable.
+      (3) For account opening at credit or financial institutions: the account
+          may be opened before verification is complete, provided that no
+          transactions are carried out until full CDD under Article 13(1)(a)
+          and (b) is obtained.
+      (4) If an obliged entity cannot complete CDD requirements (Article
+          13(1)(a), (b), or (c)), it must: not carry out the transaction, not
+          establish the business relationship, terminate any existing
+          relationship, and consider filing a suspicious transaction report
+          (STR) with the FIU.
+      (5) CDD must be applied not only to new customers but also to existing
+          customers on a risk-sensitive basis, including when relevant
+          circumstances change.
+    </Article>
+
+    <Article id="15" title="Simplified CDD — When Permitted"
+             obligation_type="CDD — Simplified">
+      Where lower ML/TF risk is identified (taking into account at least Annex II
+      factors), obliged entities may apply simplified CDD measures. Before
+      applying simplified CDD, the obliged entity must ascertain that the
+      business relationship or transaction genuinely presents lower risk.
+      Even when applying simplified CDD, obliged entities must carry out
+      sufficient monitoring to detect unusual or suspicious transactions.
+    </Article>
+
+    <Article id="16" title="Simplified CDD — Risk Factors to Consider"
+             obligation_type="CDD — Simplified">
+      When assessing whether simplified CDD is appropriate, obliged entities
+      must consider at least the Annex II factors, including:
+      CUSTOMER factors: publicly listed companies with adequate ownership
+      disclosure; public administrations; customers resident in lower-risk
+      geographic areas.
+      PRODUCT/SERVICE factors: low-premium life insurance; certain pension
+      schemes; financial inclusion products; electronic money products with
+      purse limits and ownership transparency.
+      GEOGRAPHIC factors: EU Member States; third countries with effective
+      AML/CFT systems; third countries with low corruption; third countries
+      that effectively implement FATF Recommendations.
+    </Article>
+
+    <Article id="18" title="Enhanced CDD — When Required"
+             obligation_type="CDD — Enhanced">
+      Obliged entities MUST apply enhanced CDD (EDD) measures in all of the
+      following situations:
+      — when dealing with customers or beneficial owners established in
+        high-risk third countries identified by the Commission;
+      — in the specific cases covered by Articles 18a–24 (cross-border
+        correspondent banking, politically exposed persons, shell banks);
+      — in any other higher-risk situation identified by the Member State or
+        by the obliged entity itself (considering Annex III factors).
+      In all EDD cases, obliged entities must examine, as far as reasonably
+      possible, the background and purpose of complex, unusually large, or
+      unusual-pattern transactions with no apparent economic or lawful purpose,
+      and increase the degree and intensity of monitoring of those business
+      relationships.
+      Annex III higher-risk indicators include:
+      CUSTOMER: unusual business circumstances; customers in high-risk
+      geographic areas; personal asset-holding vehicles; nominee shareholders;
+      cash-intensive businesses; unusual or excessively complex ownership
+      structures.
+      PRODUCT/SERVICE: private banking; products favouring anonymity;
+      non-face-to-face relationships without adequate safeguards; payments
+      from unknown third parties; new or developing technologies.
+      GEOGRAPHIC: countries without effective AML/CFT systems; countries with
+      high corruption; sanctioned countries; countries supporting terrorism.
+    </Article>
+	
+	<Article id="18a" title="Enhanced CDD — Mandatory Measures for High-Risk Third Countries"
+         obligation_type="CDD — Enhanced — High-Risk Third Countries"
+         introduced_by="Directive (EU) 2018/843 (AMLD5)"
+         amends="Directive (EU) 2015/849 (AMLD4)">
+
+  <!-- PARAGRAPH 1: Mandatory EDD measures — direct obligations on obliged entities -->
+  <Paragraph id="1">
+    For ALL business relationships or transactions involving high-risk third
+    countries identified by the Commission under Article 9(2), obliged entities
+    MUST apply ALL of the following enhanced CDD measures:
+    (a) obtain additional information on the customer and on the beneficial
+        owner(s);
+    (b) obtain additional information on the intended nature of the business
+        relationship;
+    (c) obtain information on the source of funds and source of wealth of the
+        customer and of the beneficial owner(s);
+    (d) obtain information on the reasons for the intended or performed
+        transactions;
+    (e) obtain senior management approval for establishing or continuing the
+        business relationship;
+    (f) conduct enhanced ongoing monitoring by increasing the number and
+        frequency of controls applied, and selecting patterns of transactions
+        that need further examination.
+    Member States may additionally require that, where applicable, the first
+    payment be made through an account held in the customer's name at a credit
+    institution subject to CDD standards at least as robust as those in this
+    Directive.
+  </Paragraph>
+
+  <!-- PARAGRAPH 2: Additional mitigating measures — obligations on obliged entities
+       where required by the Member State -->
+  <Paragraph id="2"
+             note="These measures apply where required by the Member State.
+                   At least one must be imposed by each Member State.">
+    In addition to the paragraph 1 measures, where required by their Member
+    State, obliged entities must apply one or more of the following additional
+    mitigating measures to persons and legal entities carrying out transactions
+    involving high-risk third countries:
+    (a) apply additional elements of enhanced due diligence beyond those in
+        paragraph 1;
+    (b) introduce enhanced or systematic reporting of financial transactions
+        to the relevant authorities;
+    (c) limit or restrict business relationships or transactions with natural
+        persons or legal entities from the identified high-risk third country.
+  </Paragraph>
+
+  <!-- PARAGRAPH 3(e): The only paragraph 3 measure that creates a direct
+       obligation on obliged entities; all other paragraph 3 measures are
+       addressed to Member States and supervisory authorities. -->
+  <Paragraph id="3e"
+             note="Paragraphs 3(a)–(d) are measures applied by Member States
+                   and supervisory authorities, not direct obligations on
+                   obliged entities. Paragraph 3(e) is the exception.">
+    Where required by their Member State, credit institutions and financial
+    institutions must review and amend, or if necessary TERMINATE, correspondent
+    relationships with respondent institutions located in the identified
+    high-risk third country.
+  </Paragraph>
+
+  <!-- RELATIONSHIP TO ARTICLE 18 -->
+  <Context>
+    Article 18a creates a mandatory, exhaustive list of EDD measures specifically
+    for high-risk third countries identified under Article 9(2). It operates
+    alongside Article 18 (general enhanced CDD) but is more prescriptive:
+    all paragraph 1 measures are compulsory, whereas Article 18 grants
+    obliged entities greater discretion in selecting appropriate EDD measures.
+    The paragraph 1 obligations on obliged entities are not contingent on
+    Member State implementation choices.
+  </Context>
+
+	</Article>
+
+    <Article id="19" title="Enhanced CDD — Cross-Border Correspondent Banking"
+             obligation_type="CDD — Enhanced — Correspondent Banking">
+      For cross-border correspondent relationships with third-country
+      respondent institutions, credit institutions and financial institutions
+      must, in addition to standard CDD:
+      (a) gather sufficient information to fully understand the respondent's
+          business and assess its reputation and quality of supervision from
+          publicly available information;
+      (b) assess the respondent institution's AML/CFT controls;
+      (c) obtain senior management approval before establishing new
+          correspondent relationships;
+      (d) document the respective AML/CFT responsibilities of each institution;
+      (e) for payable-through accounts: obtain satisfaction that the respondent
+          has verified the identity of, and performs ongoing due diligence on,
+          customers with direct access, and can provide relevant CDD data
+          on request.
+    </Article>
+	
+	xml<Article id="19a"
+         title="Self-Hosted Address Risk Assessment and Mitigation — Crypto-Asset Service Providers"
+         obligation_type="CDD — Enhanced — Crypto-Assets — Self-Hosted Addresses"
+         introduced_by="Directive (EU) 2024/1640 (AMLD6)"
+         applies_to="Crypto-asset service providers (CASPs)">
+
+  <Paragraph id="1">
+    Crypto-asset service providers (CASPs) must identify and assess the ML/TF
+    risk associated with transfers of crypto-assets directed to or originating
+    from a SELF-HOSTED ADDRESS (i.e. a crypto-asset address not held by a
+    regulated CASP or financial institution).
+
+    To that end, CASPs must have in place internal policies, procedures, and
+    controls specifically covering self-hosted address transfers.
+
+    CASPs must apply mitigating measures commensurate with the risks identified.
+    Those measures must include one or more of the following:
+    (a) IDENTIFICATION: take risk-based measures to identify and verify the
+        identity of the originator or beneficiary of the transfer to/from the
+        self-hosted address, or the beneficial owner of such originator or
+        beneficiary — including through reliance on third parties (Article 25);
+    (b) ADDITIONAL INFORMATION: require additional information on the origin
+        and destination of the transferred crypto-assets;
+    (c) ENHANCED MONITORING: conduct enhanced ongoing monitoring of those
+        transactions;
+    (d) OTHER MEASURES: apply any other measure to mitigate and manage ML/TF
+        risks as well as the risk of non-implementation or evasion of targeted
+        financial sanctions (TFS) and proliferation-financing-related TFS.
+
+    Note: The selection of measures must be proportionate to the risk level
+    identified for each self-hosted address transfer. EBA guidelines (due by
+    30 December 2024) will specify the criteria and means for identification
+    and verification under this Article.
+  </Paragraph>
+
+</Article>
+
+
+<Article id="19b"
+         title="Enhanced CDD — Cross-Border Correspondent Relationships for Crypto-Asset Services"
+         obligation_type="CDD — Enhanced — Crypto-Assets — Correspondent Relationships"
+         introduced_by="Directive (EU) 2024/1640 (AMLD6)"
+         applies_to="Crypto-asset service providers (CASPs)"
+         cross_reference="Mirrors Article 19 (correspondent banking) for crypto-assets;
+                          Regulation (EU) 2023/1114 (MiCA), Article 3(1)(16) defines
+                          crypto-asset services in scope — excluding custody and
+                          administration of crypto-assets on behalf of clients (point (h))">
+
+  <Paragraph id="1">
+    For cross-border CORRESPONDENT RELATIONSHIPS involving the execution of
+    crypto-asset services with a respondent entity NOT established in the EU
+    and providing similar services (including crypto-asset transfers), CASPs
+    must apply the following measures IN ADDITION to standard CDD under
+    Article 13, when entering into a business relationship with such an entity:
+
+    (a) LICENSING CHECK: determine whether the respondent entity is licensed
+        or registered in its jurisdiction;
+    (b) BUSINESS UNDERSTANDING: gather sufficient information to fully
+        understand the nature of the respondent's business and assess, from
+        publicly available information, its reputation and the quality of
+        supervision it is subject to;
+    (c) AML/CFT ASSESSMENT: assess the respondent entity's AML/CFT controls;
+    (d) SENIOR MANAGEMENT APPROVAL: obtain senior management approval before
+        establishing any new correspondent relationship;
+    (e) RESPONSIBILITY DOCUMENTATION: document the respective AML/CFT
+        responsibilities of each party to the correspondent relationship;
+    (f) PAYABLE-THROUGH ACCOUNTS: where the arrangement involves
+        payable-through crypto-asset accounts, obtain satisfaction that the
+        respondent entity has verified the identity of, and performs ongoing
+        due diligence on, customers with direct access to the correspondent
+        entity's accounts, and that the respondent can provide relevant CDD
+        data to the correspondent upon request.
+
+    TERMINATION: Where a CASP decides to terminate a correspondent relationship
+    for AML/CFT policy reasons, it must document and record the decision and
+    the grounds for it.
+
+    ONGOING UPDATES: CASPs must update their due diligence information for
+    correspondent relationships on a regular basis and whenever new risks
+    emerge in relation to the respondent entity.
+  </Paragraph>
+
+  <Paragraph id="2">
+    CASPs must use the information gathered under paragraph 1 to determine,
+    on a risk-sensitive basis, the appropriate additional mitigating measures
+    to address the risks associated with the respondent entity.
+    Note: EBA guidelines (due by 30 June 2024) will specify the assessment
+    criteria and risk-mitigating measures under this Article, including minimum
+    action where the respondent entity is unlicensed or unregistered.
+  </Paragraph>
+
+  <Context>
+    Article 19b is the crypto-asset equivalent of Article 19 (cross-border
+    correspondent banking). The key structural differences are:
+    — CASPs must additionally verify whether the respondent is licensed or
+      registered (paragraph 1(a)), which has no direct equivalent in Article 19;
+    — CASPs must document termination decisions made on AML/CFT grounds
+      (no equivalent in Article 19);
+    — CASPs must keep due diligence information current on a regular basis
+      and when new risks emerge (Article 19 implies but does not state this
+      explicitly).
+    The scope excludes custody and administration of crypto-assets on behalf
+    of clients (MiCA Article 3(1)(16)(h)), meaning pure custody providers
+    are not subject to this article's correspondent relationship regime.
+  </Context>
+
+</Article>
+
+    <Article id="20" title="Enhanced CDD — Politically Exposed Persons (PEPs)"
+             obligation_type="CDD — Enhanced — PEPs">
+      For transactions or business relationships with politically exposed
+      persons (PEPs), obliged entities must, in addition to standard CDD:
+      (a) have in place risk-based procedures to determine whether the customer
+          or beneficial owner is a PEP;
+      (b) obtain senior management approval before establishing or continuing
+          a business relationship with a PEP;
+      (c) take adequate measures to establish the source of wealth and source
+          of funds involved in the business relationship or transaction;
+      (d) conduct enhanced, ongoing monitoring of the business relationship.
+      PEP definition includes: heads of State/government, ministers, members
+      of parliament, members of governing bodies of political parties, judges
+      of supreme/constitutional courts, members of courts of auditors or
+      central bank boards, ambassadors and senior military officers, directors
+      of State-owned enterprises, and senior officials of international
+      organisations. Middle-ranking and junior officials are excluded.
+    </Article>
+
+    <Article id="21" title="Enhanced CDD — PEPs as Insurance Beneficiaries"
+             obligation_type="CDD — Enhanced — PEPs">
+      For life and investment-related insurance, obliged entities must take
+      reasonable measures to determine whether policy beneficiaries (or their
+      beneficial owners) are PEPs. This check must be completed no later than
+      at the time of payout or assignment. Where higher risk is identified,
+      obliged entities must:
+      (a) inform senior management before paying out policy proceeds;
+      (b) conduct enhanced scrutiny of the entire business relationship with
+          the policyholder.
+    </Article>
+
+    <Article id="22" title="Enhanced CDD — Former PEPs"
+             obligation_type="CDD — Enhanced — PEPs">
+      When a person ceases to hold a prominent public function, obliged
+      entities must continue to apply appropriate and risk-sensitive EDD
+      measures for at least 12 months, until the person is deemed to pose no
+      further PEP-specific risk.
+    </Article>
+
+    <Article id="23" title="Enhanced CDD — PEP Family Members and Close Associates"
+             obligation_type="CDD — Enhanced — PEPs">
+      The EDD measures required for PEPs under Articles 20 and 21 must also
+      be applied to family members and persons known to be close associates
+      of PEPs. Family members include: spouse or equivalent, children and
+      their spouses, and parents. Close associates include persons with joint
+      beneficial ownership of legal entities/arrangements with the PEP, or
+      persons who hold beneficial ownership of a legal entity/arrangement set
+      up for the de facto benefit of the PEP.
+    </Article>
+
+    <Article id="24" title="Prohibition — Shell Bank Correspondent Relationships"
+             obligation_type="CDD — Enhanced — Prohibition">
+      Credit institutions and financial institutions must not enter into or
+      continue correspondent relationships with shell banks (i.e., credit or
+      financial institutions incorporated in a jurisdiction with no physical
+      presence, meaningful mind and management, and no affiliation to a
+      regulated financial group). They must also take appropriate measures to
+      ensure they do not engage in or continue correspondent relationships
+      with any institution that is known to allow its accounts to be used by
+      a shell bank.
+    </Article>
+
+    <Article id="25" title="Reliance on Third Parties for CDD"
+             obligation_type="CDD — Third-Party Reliance">
+      Obliged entities may rely on third parties to carry out CDD requirements
+      under Article 13(1)(a), (b), and (c) (customer identification, beneficial
+      owner identification, and purpose of relationship). However, the
+      ULTIMATE RESPONSIBILITY for meeting CDD requirements always remains with
+      the obliged entity that relies on the third party.
+    </Article>
+
+    <Article id="26" title="Third Parties — Eligibility Conditions"
+             obligation_type="CDD — Third-Party Reliance">
+      An entity may only be relied upon as a third party for CDD if it:
+      (a) applies CDD and record-keeping requirements consistent with this
+          Directive; and
+      (b) has its compliance with those requirements supervised in a manner
+          consistent with this Directive.
+      Obliged entities may NOT rely on third parties established in high-risk
+      third countries identified by the Commission.
+    </Article>
+
+    <Article id="27" title="Third Parties — Information Requirements"
+             obligation_type="CDD — Third-Party Reliance">
+      When relying on a third party, the obliged entity must:
+      (a) obtain from the third party all necessary information concerning
+          the CDD requirements under Article 13(1)(a), (b), and (c);
+      (b) take adequate steps to ensure that the third party will immediately
+          provide, upon request, relevant copies of identification and
+          verification data and other documentation on the identity of the
+          customer or beneficial owner.
+    </Article>
+
+  </Chapter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       CHAPTER III — BENEFICIAL OWNERSHIP INFORMATION
+       ═══════════════════════════════════════════════════════ -->
+
+  <Chapter id="III" title="Beneficial Ownership Information">
+
+    <Article id="30" title="Beneficial Ownership — Corporate Entities"
+             obligation_type="Beneficial Ownership">
+      Corporate and other legal entities must obtain and hold adequate,
+      accurate, and current information on their beneficial ownership,
+      including details of the beneficial interests held. They must provide
+      this information to obliged entities when CDD measures are being
+      applied.
+      For obliged entities conducting CDD: do not rely exclusively on the
+      central register to fulfil CDD requirements; use a risk-based approach.
+      Beneficial owner definition for corporate entities: the natural person(s)
+      who ultimately own or control the entity through direct or indirect
+      ownership of more than 25% of shares/voting rights, or through other
+      means of control. If no such person can be identified after exhausting
+      all means, the senior managing official(s) may be treated as the
+      beneficial owner(s), with records kept of the steps taken.
+    </Article>
+
+    <Article id="31" title="Beneficial Ownership — Trusts"
+             obligation_type="Beneficial Ownership">
+      Trustees must obtain and hold adequate, accurate, and up-to-date
+      beneficial ownership information on the trust, covering: the settlor,
+      trustee(s), protector (if any), beneficiaries or class of beneficiaries,
+      and any other person exercising effective control over the trust.
+      Trustees must disclose their status as trustee and provide the above
+      information to obliged entities in a timely manner when forming a
+      business relationship or carrying out an occasional transaction above the
+      relevant thresholds. This obligation applies equally to other legal
+      arrangements with structures or functions similar to trusts.
+    </Article>
+
+  </Chapter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       CHAPTER IV — REPORTING OBLIGATIONS (Articles 32–39)
+       ═══════════════════════════════════════════════════════ -->
+
+  <Chapter id="IV" title="Reporting Obligations">
+
+    <Article id="33" title="Suspicious Transaction Reporting (STR)"
+             obligation_type="Reporting">
+      Obliged entities, their directors, and employees must:
+      (a) PROACTIVE REPORTING: inform the FIU on their own initiative, by
+          filing a suspicious transaction report (STR), where the entity
+          knows, suspects, or has reasonable grounds to suspect that funds
+          (regardless of amount) are proceeds of criminal activity or are
+          related to terrorist financing; and promptly respond to requests by
+          the FIU for additional information;
+      (b) REACTIVE REPORTING: provide the FIU, directly or indirectly and
+          upon request, with all necessary information in accordance with
+          applicable law.
+      All suspicious transactions, INCLUDING ATTEMPTED TRANSACTIONS, must
+      be reported. The compliance officer (appointed under Article 8(4)(a))
+      is responsible for transmitting the report to the FIU of the Member
+      State where the entity is established.
+    </Article>
+
+    <Article id="35" title="Obligation to Refrain from Executing Suspicious Transactions"
+             obligation_type="Reporting — Transaction Restraint">
+      Obliged entities must refrain from executing transactions they know or
+      suspect to be related to ML or TF until they have filed an STR under
+      Article 33(1)(a) and complied with any further instructions from the
+      FIU or competent authorities. If refraining is impossible or would
+      frustrate efforts to pursue beneficiaries, the FIU must be informed
+      immediately afterwards.
+    </Article>
+
+    <Article id="37" title="Safe Harbour for Good-Faith Reporting"
+             obligation_type="Reporting — Protection">
+      Disclosure of information in good faith by an obliged entity, or by
+      its employees or directors, in accordance with Articles 33 and 34 does
+      not constitute a breach of any contractual, legislative, regulatory, or
+      administrative restriction on disclosure, and does not give rise to
+      any liability, even if the underlying criminal activity was not precisely
+      known or did not actually occur.
+    </Article>
+
+    <Article id="38" title="Whistleblower Protection"
+             obligation_type="Reporting — Protection">
+      Obliged entities must ensure that employees and representatives who
+      report suspicions of ML or TF internally or to the FIU are protected
+      from threats, hostile action, and adverse or discriminatory employment
+      actions.
+    </Article>
+
+    <Article id="39" title="Tipping-Off Prohibition"
+             obligation_type="Reporting — Confidentiality">
+      Obliged entities, their directors, and employees must NOT disclose to
+      the customer or any third party that an STR has been, is being, or will
+      be filed, or that a ML/TF analysis is underway or may be carried out.
+      Exceptions (disclosure is permitted):
+      — to competent authorities or self-regulatory bodies, or for law
+        enforcement purposes;
+      — within a group (between credit/financial institutions and their
+        group branches/subsidiaries in third countries), provided group-wide
+        AML/CFT policies under Article 45 are fully complied with;
+      — between obliged entities within the same legal person or structure
+        sharing common ownership, management, or compliance control;
+      — between obliged entities from the same professional category, dealing
+        with the same customer and the same transaction, subject to equivalent
+        AML/CFT and professional secrecy obligations.
+    </Article>
+
+  </Chapter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       CHAPTER V — DATA PROTECTION AND RECORD-KEEPING
+       ═══════════════════════════════════════════════════════ -->
+
+  <Chapter id="V" title="Data Protection, Record-Keeping, and Statistics">
+
+    <Article id="40" title="Record-Keeping Obligations"
+             obligation_type="Record-Keeping">
+      Obliged entities must retain the following for FIVE YEARS after the
+      end of the business relationship or the date of an occasional
+      transaction:
+      (a) CDD records: copies of documents and information used to comply
+          with CDD requirements under Chapter II;
+      (b) Transaction records: supporting evidence and transaction records
+          (original documents or admissible copies) sufficient to identify
+          each transaction.
+      Upon expiry of the five-year period, personal data must be deleted
+      unless national law provides otherwise. Retention may be extended for
+      a further period not exceeding five additional years, if a thorough
+      necessity and proportionality assessment justifies it for ML/TF
+      prevention, detection, or investigation purposes.
+    </Article>
+
+    <Article id="41" title="Data Protection — Limits on Use of Personal Data"
+             obligation_type="Data Protection">
+      Obliged entities may process personal data under this Directive ONLY
+      for the purpose of preventing ML and TF as referred to in Article 1.
+      Further processing of that data for any other purpose, including
+      commercial purposes, is strictly prohibited. Before establishing a
+      business relationship or carrying out an occasional transaction, obliged
+      entities must inform new clients of the legal obligations under this
+      Directive to process their personal data for AML/CFT purposes.
+    </Article>
+
+    <Article id="42" title="Systems for Responding to FIU Enquiries"
+             obligation_type="Record-Keeping — Systems">
+      Obliged entities must have in place systems that enable them to respond
+      fully and promptly, through secure and confidential channels, to enquiries
+      from the FIU or other competent authorities as to whether they are
+      maintaining, or have maintained within the previous five years, a
+      business relationship with a specified person, and on the nature of
+      that relationship.
+    </Article>
+
+    <Article id="43" title="Data Processing as Public Interest"
+             obligation_type="Data Protection">
+      The processing of personal data for ML/TF prevention under this
+      Directive is to be treated as a matter of public interest. Obliged
+      entities may restrict a data subject's right of access to personal data
+      to the extent necessary to enable the entity or competent authority to
+      fulfil its AML/CFT functions or to avoid obstructing official
+      investigations or analyses.
+    </Article>
+
+  </Chapter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       CHAPTER VI — POLICIES, PROCEDURES, AND SUPERVISION
+       ═══════════════════════════════════════════════════════ -->
+
+  <Chapter id="VI" title="Internal Policies, Training, and Group Requirements">
+
+    <Article id="45" title="Group-Wide AML/CFT Policies and Procedures"
+             obligation_type="Internal Controls — Group">
+      Obliged entities that are part of a group must implement group-wide
+      policies and procedures that include:
+      — data protection policies;
+      — procedures for sharing information within the group for AML/CFT
+        purposes;
+      — the requirement that these policies be effectively implemented at
+        all branches and majority-owned subsidiaries in Member States and
+        third countries.
+      Where a branch or subsidiary is in a third country with less strict
+      AML/CFT requirements, the group must apply the home Member State's
+      higher standards to the extent permitted by local law.
+      Where local law does not permit full implementation, the obliged entity
+      must apply additional measures to manage the residual risk and inform
+      the home competent authority. The sharing of ML/TF suspicion information
+      within the group is permitted (and may be required), unless the FIU
+      instructs otherwise.
+    </Article>
+
+    <Article id="46" title="Employee Training and Awareness"
+             obligation_type="Internal Controls — Training">
+      Obliged entities must take measures proportionate to their risks, nature,
+      and size to ensure that:
+      (a) all relevant employees are aware of applicable AML/CFT provisions,
+          including data protection requirements;
+      (b) employees participate in ongoing, specialised training programmes to
+          help them recognise ML/TF operations and know how to proceed when
+          such operations are identified;
+      (c) employees have access to up-to-date information on current ML/TF
+          methods and indicators for recognising suspicious transactions;
+      (d) where practicable, timely feedback on the effectiveness and follow-up
+          of their ML/TF reports is provided;
+      (e) where applicable, the member of the management board responsible for
+          AML/CFT compliance implementation is identified.
+    </Article>
+
+  </Chapter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       ANNEXES — RISK FACTOR REFERENCE LISTS
+       ═══════════════════════════════════════════════════════ -->
+
+  <Annexes>
+
+    <Annex id="I" title="CDD Risk Variables (Article 13(3))"
+           usage="Obliged entities must consider these variables when
+                  determining the extent of CDD measures to apply.">
+      Non-exhaustive list:
+      (i)   the purpose of an account or business relationship;
+      (ii)  the level of assets to be deposited or the size of transactions;
+      (iii) the regularity or duration of the business relationship.
+    </Annex>
+
+    <Annex id="II" title="Potentially Lower-Risk Factors (Articles 15–16)"
+           usage="Obliged entities may apply simplified CDD where these
+                  factors indicate genuinely lower ML/TF risk.">
+      CUSTOMER factors: publicly listed companies with adequate ownership
+      disclosure; public administrations; customers in lower-risk geographic
+      areas.
+      PRODUCT/SERVICE factors: low-premium life insurance; certain
+      non-assignable pension schemes; financial inclusion products; electronic
+      money with purse limits and ownership transparency.
+      GEOGRAPHIC factors: EU Member States; third countries with effective
+      AML/CFT systems; third countries with low corruption; third countries
+      that effectively implement the revised FATF Recommendations.
+    </Annex>
+
+    <Annex id="III" title="Potentially Higher-Risk Factors (Article 18(3))"
+           usage="Obliged entities must apply enhanced CDD where these
+                  factors indicate higher ML/TF risk.">
+      CUSTOMER factors: unusual business circumstances; customers in
+      high-risk geographic areas; personal asset-holding vehicles; companies
+      with nominee shareholders or bearer shares; cash-intensive businesses;
+      unusual or excessively complex ownership structures.
+      PRODUCT/SERVICE factors: private banking; products favouring anonymity;
+      non-face-to-face relationships without adequate safeguards; payments
+      from unknown or unassociated third parties; new products, delivery
+      mechanisms, or technologies.
+      GEOGRAPHIC factors: countries without effective AML/CFT systems; high
+      corruption countries; countries under UN/EU sanctions or embargoes;
+      countries providing funding or support for terrorist activities.
+    </Annex>
+
+  </Annexes>
+
+  <!-- ═══════════════════════════════════════════════════════
+       QUICK-REFERENCE: OBLIGATION TAXONOMY BY TYPE
+       ═══════════════════════════════════════════════════════ -->
+
+  <ObligationIndex>
+    <Category name="Risk Assessment and Internal Controls">
+      <Ref article="8"  summary="Conduct, document, and update ML/TF risk assessments; maintain proportionate policies, controls, and procedures; obtain senior management approval"/>
+      <Ref article="45" summary="Implement group-wide AML/CFT policies at all branches and subsidiaries"/>
+      <Ref article="46" summary="Train employees; identify the management-board AML/CFT responsible person"/>
+    </Category>
+    <Category name="Customer Due Diligence — Standard">
+      <Ref article="10" summary="No anonymous accounts; prevent bearer share misuse"/>
+      <Ref article="11" summary="Apply CDD on business relationship establishment, transactions above thresholds, and upon suspicion"/>
+      <Ref article="13" summary="Core CDD: identify customer, identify beneficial owner, assess relationship purpose, conduct ongoing monitoring"/>
+      <Ref article="14" summary="Timing of CDD: verify before relationship/transaction; inability to complete CDD → do not proceed, consider STR"/>
+    </Category>
+    <Category name="Customer Due Diligence — Simplified">
+      <Ref article="15" summary="Simplified CDD permitted where lower risk is demonstrated; ongoing monitoring still required"/>
+      <Ref article="16" summary="Consider Annex II factors when assessing eligibility for simplified CDD"/>
+    </Category>
+    <Category name="Customer Due Diligence — Enhanced">
+      <Ref article="18" summary="Enhanced CDD mandatory for high-risk third countries and other higher-risk situations (Annex III)"/>
+      <Ref article="18a" summary="For ALL business relationships/transactions involving Commission-listed
+                                  high-risk third countries: mandatory application of all six paragraph 1
+                                  EDD measures (additional customer/UBO information, relationship purpose,
+                                  source of funds/wealth, transaction reasons, senior management approval,
+                                  enhanced monitoring); plus one or more additional Member-State-required
+                                  mitigating measures (paragraph 2); credit and financial institutions
+                                  may additionally be required to review, amend, or terminate
+                                  correspondent relationships with respondents in those countries
+                                  (paragraph 3(e))"/>
+	  <Ref article="19" summary="Additional EDD for cross-border correspondent banking with third-country respondents"/>
+      <Ref article="20" summary="Additional EDD for PEPs: risk procedures, senior management approval, source of wealth/funds, enhanced monitoring"/>
+      <Ref article="21" summary="Check insurance beneficiaries for PEP status; senior management notification and enhanced scrutiny if higher risk"/>
+      <Ref article="22" summary="Maintain EDD for former PEPs for at least 12 months after leaving public function"/>
+      <Ref article="23" summary="Apply PEP EDD measures to PEP family members and close associates"/>
+      <Ref article="24" summary="Prohibition: no correspondent relationships with shell banks"/>
+    </Category>
+	  <Category name="Crypto-Asset Service Providers (CASPs)">
+      <Ref article="19a" summary="Identify and assess ML/TF risk of transfers to/from self-hosted
+                                  addresses; maintain internal policies and controls; apply
+                                  commensurate mitigating measures (risk-based identification of
+                                  originator/beneficiary, additional information on origin/destination,
+                                  enhanced monitoring, or other TFS/proliferation-financing measures)"/>
+      <Ref article="19b" summary="For cross-border correspondent relationships with non-EU crypto-asset
+                                  service providers: verify licensing status; assess reputation,
+                                  supervision quality, and AML/CFT controls; obtain senior management
+                                  approval; document responsibilities; apply payable-through account
+                                  safeguards; document AML/CFT-driven termination decisions; update
+                                  due diligence regularly and when new risks emerge; apply
+                                  risk-sensitive mitigating measures based on the assessment"/>
+    </Category>
+    <Category name="Third-Party CDD Reliance">
+      <Ref article="25" summary="May rely on eligible third parties for CDD; ultimate responsibility remains with the obliged entity"/>
+      <Ref article="26" summary="Third parties must meet AML/CFT standards; cannot rely on third parties in high-risk third countries"/>
+      <Ref article="27" summary="Must obtain all necessary CDD information from the third party; must be able to obtain documents immediately on request"/>
+    </Category>
+    <Category name="Beneficial Ownership">
+      <Ref article="30" summary="Legal entities must hold accurate beneficial ownership information and provide it to obliged entities during CDD; do not rely solely on central register"/>
+      <Ref article="31" summary="Trustees must hold and disclose beneficial ownership information; applies also to trust-like arrangements"/>
+    </Category>
+    <Category name="Reporting">
+      <Ref article="33" summary="File STRs proactively with the FIU on suspicion of ML/TF; respond to FIU information requests; report all suspicious and attempted transactions"/>
+      <Ref article="35" summary="Refrain from executing suspicious transactions until STR is filed and FIU instructions are received"/>
+      <Ref article="37" summary="Good-faith reporting is legally protected"/>
+      <Ref article="38" summary="Protect whistleblowers from retaliation"/>
+      <Ref article="39" summary="Do not tip off the customer or third parties that an STR has been filed or that a ML/TF investigation is underway"/>
+    </Category>
+    <Category name="Record-Keeping and Data Protection">
+      <Ref article="40" summary="Retain CDD records and transaction records for 5 years; delete personal data on expiry unless extended retention is justified"/>
+      <Ref article="41" summary="Process personal data only for AML/CFT purposes; no commercial reuse; inform new clients of data processing obligations"/>
+      <Ref article="42" summary="Maintain systems to respond promptly and securely to FIU enquiries about business relationships within the past 5 years"/>
+      <Ref article="43" summary="AML/CFT data processing is a public-interest matter; access rights of data subjects may be restricted as necessary"/>
+    </Category>
+  </ObligationIndex>
+
+</AMLD4_ObligedEntity_Obligations>
